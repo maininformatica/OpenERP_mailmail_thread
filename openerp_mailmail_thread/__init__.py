@@ -30,7 +30,7 @@ def post_load():
         initfile = str(initfiles)
     for mailfiles in mailfile_ids:
         mailfile = str(mailfiles)
-    for threadfile in threadfile_ids:
+    for threadfiles in threadfile_ids:
         threadfile = str(threadfiles)
     for rootdir in root_ids:
         ROOT += str(rootdir).replace('odoo-bin','addons/mail/models/')
