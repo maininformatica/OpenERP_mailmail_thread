@@ -3,7 +3,7 @@
 
 {
     'name': 'OpenERP - Mail Thread on Mail',
-    'version': '1.2',
+    'version': '1.3',
     'category': 'Tools',
     'summary': 'Allow Mail Thread on Mail',
     'description': ['static/description/index.html'],
@@ -14,4 +14,5 @@
     'application': False,
     'auto_install': True,
     'post_load': 'post_load',
+    'images': ['static/description/openerp_mailmail_thread.png'],
 }
